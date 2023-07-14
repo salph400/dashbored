@@ -54,14 +54,14 @@ export default function AwardApp({ Component, pageProps }) {
       href: "/vote",
     },
     {
-      link: true,
+      link: false,
       name: "Partners",
       icon: "fal fa-handshake",
       activeIcon: "fa fa-handshake",
       href: "/partners",
     },
     {
-      link: true,
+      link: false,
       name: "Developers",
       icon: "fal fa-developers",
       activeIcon: "fa fa-developers",
@@ -78,7 +78,7 @@ export default function AwardApp({ Component, pageProps }) {
       />
       <Head>
         <title>
-          Treo
+          Bloxzy
         </title>
       </Head>
       <main className="transition-all duration-200 z-10 absolute inset-0 px-5 h-screen max-w-7xl w-full mx-auto">
